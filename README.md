@@ -9,4 +9,7 @@ Means that new IPs may need to be white listed
 https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses#availability-tests
 
 Modfiy script with IPs needed and run, example:
+</br>
 .\IPUpdates.ps1 -ResourceGroupName RG-ACME-Prod -AppServiceName ldp-prod-acmeewebhookapi -priority 310
+
+<i>make sure to set the subscription first: Select-AzureRmContext 'xxxxxx'</i>
